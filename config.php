@@ -1,5 +1,8 @@
 <?php
 
+//Lang to i18n
+define('LANG', 'en_US');
+require_once('i18n.php');
 ### IF YOU ARE GOING TO USE THE CHARACTER ' IN ANY OF THE OPTIONS, ESCAPE IT LIKE THIS: \' ###
 
 // MySQL details
@@ -16,7 +19,7 @@ define('global_salt', 'k4i8pa2m5');
 define('global_remember_login_days', '180');
 
 // Title. Used in page title and header
-define('global_title', 'Tennis court reservation');
+define('global_title', __('Tennis court reservation'));
 
 // Organization. Used in page title and header, and as sender name in reservation reminder emails
 define('global_organization', 'Local tennis club');
