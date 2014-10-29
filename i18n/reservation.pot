@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-29 11:21-0200\n"
+"POT-Creation-Date: 2014-10-29 15:58-0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,6 +17,138 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: /config.php:22
+#: config.php:22
 msgid "Tennis court reservation"
+msgstr ""
+
+#: config.php:25
+msgid "Local tennis club"
+msgstr ""
+
+#: functions.php:468
+msgid "Current price per reservation"
+msgstr ""
+
+#: cp.php:58 about.php:8
+msgid "Start"
+msgstr ""
+
+#: cp.php:58
+msgid "Control panel"
+msgstr ""
+
+#: cp.php:65
+msgid "User administration"
+msgstr ""
+
+#: cp.php:69
+msgid "Reset password"
+msgstr ""
+
+#: cp.php:69
+msgid "Change permissions"
+msgstr ""
+
+#: cp.php:69
+msgid "Delete reservations"
+msgstr ""
+
+#: cp.php:69
+msgid "Delete user"
+msgstr ""
+
+#: cp.php:74
+msgid "Database administration"
+msgstr ""
+
+#: cp.php:76
+msgid "These will require a confirmation. Your user and reservations will not be deleted unless you delete everything."
+msgstr ""
+
+#: cp.php:78
+msgid "Delete all reservations"
+msgstr ""
+
+#: cp.php:78
+msgid "Delete all users"
+msgstr ""
+
+#: cp.php:78
+msgid "Delete everything"
+msgstr ""
+
+#: cp.php:84
+msgid "System configuration"
+msgstr ""
+
+#: cp.php:86
+msgid "Changing the price will not affect previous reservations."
+msgstr ""
+
+#: cp.php:90
+msgid "Price per reservation, in"
+msgstr ""
+
+#: cp.php:92
+msgid "Save configuration"
+msgstr ""
+
+#: cp.php:106
+msgid "Your usage"
+msgstr ""
+
+#: cp.php:108
+msgid "If you have used without making a reservation first, please click the button below. It can't be undone."
+msgstr ""
+
+#: cp.php:112
+msgid "Add 1 to my reservations"
+msgstr ""
+
+#: cp.php:125
+msgid "Your settings"
+msgstr ""
+
+#: cp.php:127
+msgid "Before changing any setting, please verify that your details below are correct."
+msgstr ""
+
+#: cp.php:128
+msgid "Send me reservation reminders by email"
+msgstr ""
+
+#: cp.php:140
+msgid "Your details"
+msgstr ""
+
+#: cp.php:142
+msgid "If you change your email, you must use the new one to log in. Password can be left blank to leave unchanged."
+msgstr ""
+
+#: cp.php:147
+msgid "Name"
+msgstr ""
+
+#: cp.php:149
+msgid "Email"
+msgstr ""
+
+#: cp.php:152
+msgid "Password"
+msgstr ""
+
+#: cp.php:154
+msgid "Confirm password"
+msgstr ""
+
+#: cp.php:158
+msgid "Update my details"
+msgstr ""
+
+#: about.php:8
+msgid "About"
+msgstr ""
+
+#: about.php:13
+msgid "Visit website"
 msgstr ""

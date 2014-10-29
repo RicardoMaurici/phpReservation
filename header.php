@@ -2,13 +2,13 @@
 
 <div id="header_inner_div"><div id="header_inner_left_div">
 
-<a href="#about">About</a>
+<a href="#about"><?php echo __('About'); ?></a>
 
 <?php
 
 if(isset($_SESSION['logged_in']))
 {
-	echo ' | <a href="#help">Help</a>';
+	echo ' | <a href="#help">'.__('Help').'</a>';
 }
 
 ?>
@@ -19,7 +19,7 @@ if(isset($_SESSION['logged_in']))
 
 if(isset($_SESSION['logged_in']))
 {
-	echo '<b>Week ' . global_week_number . ' - ' . global_day_name . ' ' . date('jS F Y') . '</b>';
+	echo '<b>'.__('Week').' '. global_week_number . ' - ' . global_day_name . ' ' . date('jS F Y') . '</b>';
 }
 
 ?>
@@ -30,11 +30,11 @@ if(isset($_SESSION['logged_in']))
 
 if(isset($_SESSION['logged_in']))
 {
-	echo '<a href="#cp">Control panel</a> | <a href="#logout">Log out</a>';
+	echo '<a href="#cp">'.__('Control panel').'</a> | <a href="#logout">'.__('Log out').'</a>';
 }
 else
 {
-	echo 'Not logged in';
+	echo __('Not logged in');
 }
 
 ?>

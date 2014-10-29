@@ -1,0 +1,12 @@
+
+#Gera potfile
+ARQUIVO_TMP="/tmp/arquivos-hmw-$$.txt"
+find ./ -type f -name \*.php > $ARQUIVO_TMP
+xgettext -k_e -k__ -L PHP --from-code utf-8 --no-wrap -d reservation -o reservation.pot -f $ARQUIVO_TMP
+rm -f $ARQUIVO_TMP
+
+#Inicia tradução
+msginit -l pt_BR.UTF-8 --no-wrap --no-translator -o i18n/pt_BR/LC_MESSAGES/reservation.po -i i18n/reservation.pot
+
+#Compila
+msgfmt -c -o i18n/pt_BR/LC_MESSAGES/reservation.mo i18n/pt_BR/LC_MESSAGES/reservation.po 

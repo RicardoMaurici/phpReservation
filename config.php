@@ -1,7 +1,7 @@
 <?php
 
 //Lang to i18n
-define('LANG', 'en_US');
+define('LANG', 'pt_BR');
 require_once('i18n.php');
 ### IF YOU ARE GOING TO USE THE CHARACTER ' IN ANY OF THE OPTIONS, ESCAPE IT LIKE THIS: \' ###
 
@@ -22,7 +22,7 @@ define('global_remember_login_days', '180');
 define('global_title', __('Tennis court reservation'));
 
 // Organization. Used in page title and header, and as sender name in reservation reminder emails
-define('global_organization', 'Local tennis club');
+define('global_organization', __('Local tennis club'));
 
 // Secret code. Can be used to only allow certain people to create a user
 // Set to '0' to disable

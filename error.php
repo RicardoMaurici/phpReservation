@@ -27,26 +27,26 @@ else
 
 if($error_code == '1')
 {
-	echo 'Salt must be 9 characters. Check config.php.';
+	echo __('Salt must be 9 characters. Check config.php.');
 }
 elseif($error_code == '2')
 {
-	echo 'You must enable JavaScript in your browser';
+	echo __('You must enable JavaScript in your browser');
 }
 elseif($error_code == '3')
 {
-	echo 'You must enable cookies in your browser';
+	echo __('You must enable cookies in your browser');
 }
 else
 {
-	echo 'Unknown error';
+	echo __('Unknown error');
 }
 
 ?>
 
 </p>
 
-<p><a href=".">Click here to go back</a></p>
+<p><a href="."><?php echo __('Click here to go back'); ?></a></p>
 
 </body>
 
