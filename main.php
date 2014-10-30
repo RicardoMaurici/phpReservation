@@ -95,11 +95,11 @@ elseif(isset($_GET['latest_version']))
 
 	if(empty($latest_version) || !is_numeric($latest_version))
 	{
-		echo '<span class="error_span">Could not get latest version</span>';
+		echo '<span class="error_span">'.__('Could not get latest version').'</span>';
 	}
 	else
 	{
-		echo 'Latest version: ' . $latest_version;
+		echo __('Latest version').': ' . $latest_version;
 	}
 }
 
