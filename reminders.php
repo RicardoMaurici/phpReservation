@@ -26,8 +26,8 @@ if(global_reservation_reminders == '1')
 				}
 
 				$time = rtrim($time, ', ');
-				$subject = 'Reservation reminder';
-				$message = "This is a reservation reminder for today.\r\n\nYou have made a reservation at the following time(s): " . $time . "\r\n\nIf you don't want to receive reservation reminders, you can turn it off in the control panel.\r\n\n" . global_url;
+				$subject = __('Reservation reminder');
+				$message = __('This is a reservation reminder for today.\r\n\nYou have made a reservation at the following time(s)').': ' . $time . "\r\n\n".__('If you don\'t want to receive reservation reminders, you can turn it off in the control panel.')."\r\n\n" . global_url;
 				$headers = "From: " . global_organization . " <" . global_reservation_reminders_email . ">\r\n";
 				$headers .= "MIME-Version: 1.0\r\n";
 				$headers .= "Content-type: text/plain; charset=utf-8\r\n";

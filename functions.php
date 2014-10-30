@@ -179,27 +179,27 @@ function create_user($user_name, $user_email, $user_password, $user_secret_code)
 {
 	if(validate_user_name($user_name) != true)
 	{
-		return('<span class="error_span">Name must be <u>letters only</u> and be <u>2 to 12 letters long</u>. If your name is longer, use a short version of your name</span>');
+		return('<span class="error_span">'. __('Name must be <u>letters only</u> and be <u>2 to 12 letters long</u>. If your name is longer, use a short version of your name').'</span>');
 	}
 	elseif(validate_user_email($user_email) != true)
 	{
-		return('<span class="error_span">Email must be a valid email address and be no more than 50 characters long</span>');
+		return('<span class="error_span">'.__('Email must be a valid email address and be no more than 50 characters long').'</span>');
 	}
 	elseif(validate_user_password($user_password) != true)
 	{
-		return('<span class="error_span">Password must be at least 4 characters</span>');
+		return('<span class="error_span">'.__('Password must be at least 4 characters').'</span>');
 	}
 	elseif(global_secret_code != '0' && $user_secret_code != global_secret_code)
 	{
-		return('<span class="error_span">Wrong secret code</span>');
+		return('<span class="error_span">'.__('Wrong secret code').'</span>');
 	}
 	elseif(user_name_exists($user_name) == true)
 	{
-		return('<span class="error_span">Name is already in use. If you have the same name as someone else, use another spelling that identifies you</span>');
+		return('<span class="error_span">'.__('Name is already in use. If you have the same name as someone else, use another spelling that identifies you').'</span>');
 	}
 	elseif(user_email_exists($user_email) == true)
 	{
-		return('<span class="error_span">Email is already registered. <a href="#forgot_password">Forgot your password?</a></span>');
+		return('<span class="error_span">'.__('Email is already registered.').' <a href="#forgot_password">'.__('Forgot your password?').'</a></span>');
 	}
 	else
 	{
@@ -233,11 +233,11 @@ function list_admin_users()
 
 	if(mysql_num_rows($query) < 1)
 	{
-		return('<span class="error_span">There are no admins</span>');
+		return('<span class="error_span">'.__('There are no admins').'</span>');
 	}
 	else
 	{
-		$return = '<table id="forgot_password_table"><tr><th>Name</th><th>Email</th></tr>';
+		$return = '<table id="forgot_password_table"><tr><th>'.__('Name').'</th><th>'.__('Email').'</th></tr>';
 
 		$i = 0;
 
@@ -282,7 +282,7 @@ function read_reservation_details($week, $day, $time)
 	}
 	else
 	{
-		return('<b>Reservation made:</b> ' . $reservation['reservation_made_time'] . '<br><b>User\'s email:</b> ' . $reservation['reservation_user_email']);
+		return('<b>'.__('Reservation made').':</b> ' . $reservation['reservation_made_time'] . '<br><b>'.__('User\'s email').':</b> ' . $reservation['reservation_user_email']);
 	}
 }
 
@@ -301,11 +301,11 @@ function make_reservation($week, $day, $time)
 	}
 	elseif($week < global_week_number && $_SESSION['user_is_admin'] != '1' || $week == global_week_number && $day < global_day_number && $_SESSION['user_is_admin'] != '1')
 	{
-		return('You can\'t reserve back in time');
+		return(__('You can\'t reserve back in time'));
 	}
 	elseif($week > global_week_number + global_weeks_forward && $_SESSION['user_is_admin'] != '1')
 	{
-		return('You can only reserve ' . global_weeks_forward . ' weeks forward in time');
+		return (sprintf(__('You can only reserve %c weeks forward in time'), global_weeks_forward));
 	}
 	else
 	{
@@ -321,7 +321,7 @@ function make_reservation($week, $day, $time)
 		}
 		else
 		{
-			return('Someone else just reserved this time');
+			return(__('Someone else just reserved this time'));
 		}
 	}
 }
@@ -330,11 +330,11 @@ function delete_reservation($week, $day, $time)
 {
 	if($week < global_week_number && $_SESSION['user_is_admin'] != '1' || $week == global_week_number && $day < global_day_number && $_SESSION['user_is_admin'] != '1')
 	{
-		return('You can\'t reserve back in time');
+		return(__('You can\'t reserve back in time'));
 	}
 	elseif($week > global_week_number + global_weeks_forward && $_SESSION['user_is_admin'] != '1')
 	{
-		return('You can only reserve ' . global_weeks_forward . ' weeks forward in time');
+		return(sprintf(__('You can only reserve weeks forward in time'), global_weeks_forward));
 	}
 	else
 	{
@@ -349,7 +349,7 @@ function delete_reservation($week, $day, $time)
 		}
 		else
 		{
-			return('You can\'t remove other users\' reservations');
+			return(__('You can\'t remove other user\'s reservations'));
 		}
 	}
 }
@@ -360,7 +360,7 @@ function list_users()
 {
 	$query = mysql_query("SELECT * FROM " . global_mysql_users_table . " ORDER BY user_is_admin DESC, user_name")or die('<span class="error_span"><u>MySQL error:</u> ' . htmlspecialchars(mysql_error()) . '</span>');
 
-	$users = '<table id="users_table"><tr><th>ID</th><th>Admin</th><th>Name</th><th>Email</th><th>Reminders</th><th>Usage</th><th>Cost</th><th></th></tr>';
+	$users = '<table id="users_table"><tr><th>'.__('ID').'</th><th>'.__('Admin').'</th><th>'.__('Name').'</th><th>'.__('Email').'</th><th>'.__('Reminders').'</th><th>'.__('Usage').'</th><th>'.__('Cost').'</th><th></th></tr>';
 
 	while($user = mysql_fetch_array($query))
 	{
@@ -385,7 +385,7 @@ function reset_user_password($user_id)
 	}
 	else
 	{
-		return('The password to the user with ID ' . $user_id . ' is now "' . $password . '". The user can now log in and change the password');
+		return(sprintf(__('The password to the user with ID %1$c is now %2$s. The user can now log in and change the password'),$user_id, $password));
 	}
 }
 
@@ -393,7 +393,7 @@ function change_user_permissions($user_id)
 {
 	if($user_id == $_SESSION['user_id'])
 	{
-		return('<span class="error_span">Sorry, you can\'t use your superuser powers to remove them</span>');
+		return('<span class="error_span">'.__('Sorry, you can\'t use your superuser powers to remove them').'</span>');
 	}
 	else
 	{
@@ -407,7 +407,7 @@ function delete_user_data($user_id, $data)
 {
 	if($user_id == $_SESSION['user_id'] && $data != 'reservations')
 	{
-		return('<span class="error_span">Sorry, self-destructive behaviour is not accepted</span>');
+		return('<span class="error_span">'.__('Sorry, self-destructive behaviour is not accepted').'</span>');
 	}
 	else
 	{
@@ -451,7 +451,7 @@ function save_system_configuration($price)
 {
 	if(validate_price($price) != true)
 	{
-		return('<span class="error_span">Price must be a number (use . and not , if you want to use decimals)</span>');
+		return('<span class="error_span">'.__('Price must be a number (use . and not , if you want to use decimals)').'</span>');
 	}
 	else
 	{
@@ -465,7 +465,7 @@ function save_system_configuration($price)
 
 function get_usage()
 {
-	$usage = '<table id="usage_table"><tr><th>Reservations</th><th>Cost</th><th>Current price per reservation</th></tr><tr><td>' . count_reservations($_SESSION['user_id']) . '</td><td>' . cost_reservations($_SESSION['user_id']) . ' ' . global_currency . '</td><td>' . global_price . ' ' . global_currency . '</td></tr></table>';
+	$usage = '<table id="usage_table"><tr><th>'.__('Reservations').'</th><th>'.__('Cost').'</th><th>'.__('Current price per reservation').'</th></tr><tr><td>' . count_reservations($_SESSION['user_id']) . '</td><td>' . cost_reservations($_SESSION['user_id']) . ' ' . global_currency . '</td><td>' . global_price . ' ' . global_currency . '</td></tr></table>';
 	return($usage);
 }
 
@@ -522,23 +522,23 @@ function change_user_details($user_name, $user_email, $user_password)
 
 	if(validate_user_name($user_name) != true)
 	{
-		return('<span class="error_span">Name must be <u>letters only</u> and be <u>2 to 12 letters long</u>. If your name is longer, use a short version of your name</span>');
+		return('<span class="error_span">'.__('Name must be <u>letters only</u> and be <u>2 to 12 letters long</u>. If your name is longer, use a short version of your name').'</span>');
 	}
 	if(validate_user_email($user_email) != true)
 	{
-		return('<span class="error_span">Email must be a valid email address and be no more than 50 characters long</span>');
+		return('<span class="error_span">'.__('Email must be a valid email address and be no more than 50 characters long').'</span>');
 	}
 	elseif(validate_user_password($user_password) != true && !empty($user_password))
 	{
-		return('<span class="error_span">Password must be at least 4 characters</span>');
+		return('<span class="error_span">'.__('Password must be at least 4 characters').'</span>');
 	}
 	elseif(user_name_exists($user_name) == true && $user_name != $_SESSION['user_name'])
 	{
-		return('<span class="error_span">Name is already in use. If you have the same name as someone else, use another spelling that identifies you</span>');
+		return('<span class="error_span">'.__('Name is already in use. If you have the same name as someone else, use another spelling that identifies you').'</span>');
 	}
 	elseif(user_email_exists($user_email) == true && $user_email != $_SESSION['user_email'])
 	{
-		return('<span class="error_span">Email is already registered</span>');
+		return('<span class="error_span">'.__('Email is already registered').'</span>');
 	}
 	else
 	{

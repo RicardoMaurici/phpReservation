@@ -80,9 +80,9 @@ elseif(isset($_GET['forgot_password']))
 
 ?>
 
-	<div class="box_div" id="login_div"><div class="box_top_div"><a href="#">Start</a> &gt; Forgot password</div><div class="box_body_div">
+	<div class="box_div" id="login_div"><div class="box_top_div"><a href="#"><?php echo __('Start'); ?></a> &gt; <?php echo __('Forgot password'); ?></div><div class="box_body_div">
 
-	<p><? echo __('Contact one of the admins below by email and write that you\'ve forgotten your password, and you will get a new one. The password can be changed after logging in.'); ?></p>
+	<p><?php echo __('Contact one of the admins below by email and write that you\'ve forgotten your password, and you will get a new one. The password can be changed after logging in.'); ?></p>
 
 	<?php echo list_admin_users(); ?>
 
@@ -96,19 +96,19 @@ else
 
 ?>
 
-	<div class="box_div" id="login_div"><div class="box_top_div">Log in</div><div class="box_body_div">
+	<div class="box_div" id="login_div"><div class="box_top_div"><?php echo __('Log in'); ?></div><div class="box_body_div">
 
 	<form action="." id="login_form" autocomplete="off"><p>
 
-	<label for="user_email_input"><? echo __('Email'); ?>:</label><br><input type="text" id="user_email_input" value="<?php echo get_login_data('user_email'); ?>" autocapitalize="off"><br><br>
-	<label for="user_password_input"><? echo __('Password'); ?>:</label><br><input type="password" id="user_password_input" value="<?php echo get_login_data('user_password'); ?>"><br><br>
-	<input type="checkbox" id="remember_me_checkbox" checked="checked"> <label for="remember_me_checkbox"><? echo __('Remember me'); ?></label><br><br>		
-	<input type="submit" value="<? echo __('Log in'); ?>">
+	<label for="user_email_input"><?php echo __('Email'); ?>:</label><br><input type="text" id="user_email_input" value="<?php echo get_login_data('user_email'); ?>" autocapitalize="off"><br><br>
+	<label for="user_password_input"><?php echo __('Password'); ?>:</label><br><input type="password" id="user_password_input" value="<?php echo get_login_data('user_password'); ?>"><br><br>
+	<input type="checkbox" id="remember_me_checkbox" checked="checked"> <label for="remember_me_checkbox"><?php echo __('Remember me'); ?></label><br><br>		
+	<input type="submit" value="<?php echo __('Log in'); ?>">
 
 	</p></form>
 
 	<p id="login_message_p"></p>
-	<p><a href="#new_user"><? echo __('New user'); ?></a> | <a href="#forgot_password"><? echo __('Forgot password'); ?></a></p>
+	<p><a href="#new_user"><?php echo __('New user'); ?></a> | <a href="#forgot_password"><?php echo __('Forgot password'); ?></a></p>
 
 	</div></div>
 

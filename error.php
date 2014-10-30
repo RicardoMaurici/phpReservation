@@ -6,7 +6,7 @@
 
 <meta http-equiv="content-type" content="text/html;charset=utf-8">
 
-<title>Error</title>
+<title><?php echo __('Error');?></title>
 
 </head>
 
