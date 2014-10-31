@@ -13,9 +13,10 @@
 <script src="js/jquery.js" type="text/javascript"></script>
 <script src="js/jquery-cookies.js" type="text/javascript"></script>
 <script src="js/jquery-base64.js" type="text/javascript"></script>
-<?php include('js/header-js.php'); ?>
-<script src="js/main.js" type="text/javascript"></script>
-
+<?php include('js/header-js.php'); 
+include('js/main-js.php'); 
+//<script src="js/main.js" type="text/javascript"></script>
+?>
 <link href="css/style.css" rel="stylesheet" type="text/css">
 <link rel="shortcut icon" href="img/favicon.ico">
 
