@@ -260,7 +260,7 @@ function login()
 
 function logout()
 {
-	notify('Logging out...', 300);
+	notify(<?php echo "'".__('Logging out...')."'"; ?>, 300);
 	$.get('login.php?logout', function(data) { setTimeout(function() { window.location.replace('.'); }, 1000); });
 }
 
@@ -332,7 +332,7 @@ function toggle_reservation_time(id, week, day, time, from)
 
 	if(user_name == '')
 	{
-		$(id).html('Wait...'); 
+		$(id).html(<?php echo "'".__('Wait...')."'"; ?>); 
 
 		$.post('reservation.php?make_reservation', { week: week, day: day, time: time }, function(data) 
 		{
@@ -351,7 +351,7 @@ function toggle_reservation_time(id, week, day, time, from)
 	{
 		if(offclick_event == 'mouseup' || from == 'details')
 		{
-			if(user_name == 'Wait...')
+			if(user_name == <?php echo "'".__('Wait...')."'"; ?>)
 			{
 				notify(<?php echo "'".__('One click is enough')."'"; ?>, 4);
 			}
@@ -584,7 +584,7 @@ function delete_all(delete_data)
 	{
 		var delete_confirm = confirm(<?php echo "'".__('Are you sure you want to delete ALL users? Database backup is a good idea!')."'"; ?>);
 	}
-	else if(delete_data == 'everything')
+	else if(delete_data =='everything')
 	{
 		var delete_confirm = confirm(<?php echo "'".__('Are you sure you want to delete EVERYTHING (including you)? The first user created afterwards will become admin. Database backup is a good idea!')."'"; ?>);
 	}
