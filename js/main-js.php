@@ -479,13 +479,13 @@ function reset_user_password()
 	{
 		var user_id = $(".user_radio:checked").val();
 
-		$('#user_administration_message_p').html('<img src="img/loading.gif" alt="Loading"> Resetting password...').slideDown('fast');
+		$('#user_administration_message_p').html(<?php echo "'".'<img src="img/loading.gif" alt="Loading"> '.__('Resetting password...')."'"; ?> ).slideDown('fast');
 
 		$.post('cp.php?reset_user_password', { user_id: user_id }, function(data)
 		{
 			if(data == 0)
 			{
-				$('#user_administration_message_p').html('<span class="error_span">You can change your password at the bottom of this page</span>').slideDown('fast');
+				$('#user_administration_message_p').html(<?php echo "'".'<span class="error_span">'.__('You can change your password at the bottom of this page').'</span>'."'"; ?>).slideDown('fast');
 			}
 			else
 			{
@@ -495,7 +495,7 @@ function reset_user_password()
 	}
 	else
 	{
-		$('#user_administration_message_p').html('<span class="error_span">You must pick a user</span>').slideDown('fast');
+		$('#user_administration_message_p').html(<?php echo "'".'<span class="error_span">'.__('You must pick a user').'</span>'."'"; ?>).slideDown('fast');
 	}
 }
 
@@ -505,7 +505,7 @@ function change_user_permissions()
 	{
 		var user_id = $(".user_radio:checked").val();
 
-		$('#user_administration_message_p').html('<img src="img/loading.gif" alt="Loading"> Changing permissions...').slideDown('fast');
+		$('#user_administration_message_p').html(<?php echo "'".'<img src="img/loading.gif" alt="Loading">'.__('Changing permissions...')."'"; ?>).slideDown('fast');
 
 		$.post('cp.php?change_user_permissions', { user_id: user_id }, function(data)
 		{
@@ -514,7 +514,7 @@ function change_user_permissions()
 				setTimeout(function()
 				{
 					list_users();
-					$('#user_administration_message_p').html('Permissions changed successfully. The user must re-login to get the new permissions');
+					$('#user_administration_message_p').html(<?php echo "'".__('Permissions changed successfully. The user must re-login to get the new permissions')."'"; ?>);
 				}, 1000);
 			}
 			else
@@ -525,7 +525,7 @@ function change_user_permissions()
 	}
 	else
 	{
-		$('#user_administration_message_p').html('<span class="error_span">You must pick a user</span>').slideDown('fast');
+		$('#user_administration_message_p').html(<?php echo "'".'<span class="error_span">'.__('You must pick a user').'</span>'."'"; ?>).slideDown('fast');
 	}
 }
 
@@ -533,13 +533,13 @@ function delete_user_data(delete_data)
 {
 	if(typeof $(".user_radio:checked").val() !='undefined')
 	{
-		var delete_confirm = confirm('Are you sure?');
+		var delete_confirm = confirm(<?php echo "'".__('Are you sure?')."'"; ?>);
 
 		if(delete_confirm)
 		{
 			var user_id = $(".user_radio:checked").val();
 
-			$('#user_administration_message_p').html('<img src="img/loading.gif" alt="Loading"> Deleting...').slideDown('fast');
+			$('#user_administration_message_p').html(<?php echo "'".'<img src="img/loading.gif" alt="Loading">'. __('Deleting...')."'"; ?>).slideDown('fast');
 
 			$.post('cp.php?delete_user_data', { user_id: user_id, delete_data: delete_data }, function(data)
 			{
@@ -570,7 +570,7 @@ function delete_user_data(delete_data)
 	}
 	else
 	{
-		$('#user_administration_message_p').html('<span class="error_span">You must pick a user</span>').slideDown('fast');
+		$('#user_administration_message_p').html(<?php echo "'".'<span class="error_span">'.__('You must pick a user').'</span>'."'"; ?>).slideDown('fast');
 	}
 }
 
@@ -578,20 +578,20 @@ function delete_all(delete_data)
 {
 	if(delete_data == 'reservations')
 	{
-		var delete_confirm = confirm('Are you sure you want to delete ALL reservations? Database backup is a good idea!');
+		var delete_confirm = confirm(<?php echo "'".__('Are you sure you want to delete ALL reservations? Database backup is a good idea!')."'"; ?>);
 	}
 	else if(delete_data == 'users')
 	{
-		var delete_confirm = confirm('Are you sure you want to delete ALL users? Database backup is a good idea!');
+		var delete_confirm = confirm(<?php echo "'".__('Are you sure you want to delete ALL users? Database backup is a good idea!')."'"; ?>);
 	}
 	else if(delete_data == 'everything')
 	{
-		var delete_confirm = confirm('Are you sure you want to delete EVERYTHING (including you)? The first user created afterwards will become admin. Database backup is a good idea!');
+		var delete_confirm = confirm(<?php echo "'".__('Are you sure you want to delete EVERYTHING (including you)? The first user created afterwards will become admin. Database backup is a good idea!')."'"; ?>);
 	}
 
 	if(delete_confirm)
 	{
-		$('#database_administration_message_p').html('<img src="img/loading.gif" alt="Loading"> Deleting...').slideDown('fast');
+		$('#database_administration_message_p').html(<?php echo "'".'<img src="img/loading.gif" alt="Loading"> '.__('Deleting...')."'"; ?> ).slideDown('fast');
 
 		$.post('cp.php?delete_all', { delete_data: delete_data }, function(data)
 		{
@@ -622,7 +622,7 @@ function save_system_configuration()
 {
 	var price = $('#price_input').val();
 
-	$('#system_configuration_message_p').html('<img src="img/loading.gif" alt="Loading"> Saving...');
+	$('#system_configuration_message_p').html(<?php echo "'".'<img src="img/loading.gif" alt="Loading">'.__('Saving...')."'"; ?>);
 	$('#system_configuration_message_p').slideDown('fast');
 
 	$.post('cp.php?save_system_configuration', { price: price }, function(data)
@@ -661,7 +661,7 @@ function get_reservation_reminders()
 
 function add_one_reservation()
 {
-	$('#usage_message_p').html('<img src="img/loading.gif" alt="Loading"> Saving...').slideDown('fast');
+	$('#usage_message_p').html(<?php echo "'".'<img src="img/loading.gif" alt="Loading">'.__('Saving...')."'"; ?>).slideDown('fast');
 
 	$.post('reservation.php?make_reservation', { week: '0', day: '0', time: '0' }, function(data)
 	{
@@ -687,7 +687,7 @@ function add_one_reservation()
 
 function toggle_reservation_reminder()
 {
-	$('#settings_message_p').html('<img src="img/loading.gif" alt="Loading"> Saving...').slideDown('fast');
+	$('#settings_message_p').html(<?php echo "'".'<img src="img/loading.gif" alt="Loading">'.__('Saving...')."'"; ?>).slideDown('fast');
 
 	$.post('cp.php?toggle_reservation_reminder', function(data)
 	{
@@ -720,14 +720,14 @@ function change_user_details()
 
 	if(user_password != user_password_confirm)
 	{
-		$('#user_details_message_p').html('<span class="error_span">Passwords do not match</span>').slideDown('fast');
+		$('#user_details_message_p').html(<?php echo "'".'<span class="error_span">'.__('Passwords do not match').'</span>'."'"; ?>).slideDown('fast');
 		$('#user_password_input').val('');
 		$('#user_password_confirm_input').val('');
 		input_focus('#user_password_input');
 	}
 	else
 	{	
-		$('#user_details_message_p').html('<img src="img/loading.gif" alt="Loading"> Saving and refreshing...').slideDown('fast');
+		$('#user_details_message_p').html(<?php echo "'".'<img src="img/loading.gif" alt="Loading">'.__('Saving and refreshing...')."'"; ?>).slideDown('fast');
 
 		$.post('cp.php?change_user_details', { user_name: user_name, user_email: user_email, user_password: user_password }, function(data)
 		{
