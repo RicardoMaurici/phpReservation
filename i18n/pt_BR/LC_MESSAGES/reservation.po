@@ -6,10 +6,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: reservation\n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-29 15:58-0200\n"
-"PO-Revision-Date: 2014-10-29 15:58-0200\n"
+"POT-Creation-Date: 2014-11-01 17:13-0200\n"
+"PO-Revision-Date: 2014-11-01 17:13-0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: pt_BR\n"
@@ -18,138 +18,646 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: config.php:22
-msgid "Tennis court reservation"
-msgstr "tennis courtes reservação"
-
-#: config.php:25
-msgid "Local tennis club"
-msgstr ""
-
-#: functions.php:468
-msgid "Current price per reservation"
-msgstr ""
-
-#: cp.php:58 about.php:8
+#: /about.php:8 /cp.php:58 /help.php:10 /login.php:29 /login.php:83
 msgid "Start"
 msgstr ""
 
-#: cp.php:58
-msgid "Control panel"
-msgstr ""
-
-#: cp.php:65
-msgid "User administration"
-msgstr ""
-
-#: cp.php:69
-msgid "Reset password"
-msgstr ""
-
-#: cp.php:69
-msgid "Change permissions"
-msgstr ""
-
-#: cp.php:69
-msgid "Delete reservations"
-msgstr ""
-
-#: cp.php:69
-msgid "Delete user"
-msgstr ""
-
-#: cp.php:74
-msgid "Database administration"
-msgstr ""
-
-#: cp.php:76
-msgid "These will require a confirmation. Your user and reservations will not be deleted unless you delete everything."
-msgstr ""
-
-#: cp.php:78
-msgid "Delete all reservations"
-msgstr ""
-
-#: cp.php:78
-msgid "Delete all users"
-msgstr ""
-
-#: cp.php:78
-msgid "Delete everything"
-msgstr ""
-
-#: cp.php:84
-msgid "System configuration"
-msgstr ""
-
-#: cp.php:86
-msgid "Changing the price will not affect previous reservations."
-msgstr ""
-
-#: cp.php:90
-msgid "Price per reservation, in"
-msgstr ""
-
-#: cp.php:92
-msgid "Save configuration"
-msgstr ""
-
-#: cp.php:106
-msgid "Your usage"
-msgstr ""
-
-#: cp.php:108
-msgid "If you have used without making a reservation first, please click the button below. It can't be undone."
-msgstr ""
-
-#: cp.php:112
-msgid "Add 1 to my reservations"
-msgstr ""
-
-#: cp.php:125
-msgid "Your settings"
-msgstr ""
-
-#: cp.php:127
-msgid "Before changing any setting, please verify that your details below are correct."
-msgstr ""
-
-#: cp.php:128
-msgid "Send me reservation reminders by email"
-msgstr ""
-
-#: cp.php:140
-msgid "Your details"
-msgstr ""
-
-#: cp.php:142
-msgid "If you change your email, you must use the new one to log in. Password can be left blank to leave unchanged."
-msgstr ""
-
-#: cp.php:147
-msgid "Name"
-msgstr ""
-
-#: cp.php:149
-msgid "Email"
-msgstr ""
-
-#: cp.php:152
-msgid "Password"
-msgstr ""
-
-#: cp.php:154
-msgid "Confirm password"
-msgstr ""
-
-#: cp.php:158
-msgid "Update my details"
-msgstr ""
-
-#: about.php:8
+#: /about.php:8 /header.php:5
 msgid "About"
 msgstr ""
 
-#: about.php:13
+#: /about.php:13
 msgid "Visit website"
+msgstr ""
+
+#: /config.php:22
+msgid "Tennis court reservation"
+msgstr ""
+
+#: /config.php:25
+msgid "Local tennis club"
+msgstr ""
+
+#: /cp.php:58 /header.php:33
+msgid "Control panel"
+msgstr ""
+
+#: /cp.php:65
+msgid "User administration"
+msgstr ""
+
+#: /cp.php:69
+msgid "Reset password"
+msgstr ""
+
+#: /cp.php:69
+msgid "Change permissions"
+msgstr ""
+
+#: /cp.php:69
+msgid "Delete reservations"
+msgstr ""
+
+#: /cp.php:69
+msgid "Delete user"
+msgstr ""
+
+#: /cp.php:74
+msgid "Database administration"
+msgstr ""
+
+#: /cp.php:76
+msgid "These will require a confirmation. Your user and reservations will not be deleted unless you delete everything."
+msgstr ""
+
+#: /cp.php:78
+msgid "Delete all reservations"
+msgstr ""
+
+#: /cp.php:78
+msgid "Delete all users"
+msgstr ""
+
+#: /cp.php:78
+msgid "Delete everything"
+msgstr ""
+
+#: /cp.php:84
+msgid "System configuration"
+msgstr ""
+
+#: /cp.php:86
+msgid "Changing the price will not affect previous reservations."
+msgstr ""
+
+#: /cp.php:90
+msgid "Price per reservation, in"
+msgstr ""
+
+#: /cp.php:92
+msgid "Save configuration"
+msgstr ""
+
+#: /cp.php:106
+msgid "Your usage"
+msgstr ""
+
+#: /cp.php:108
+msgid "If you have used without making a reservation first, please click the button below. It can't be undone."
+msgstr ""
+
+#: /cp.php:112
+msgid "Add 1 to my reservations"
+msgstr ""
+
+#: /cp.php:125
+msgid "Your settings"
+msgstr ""
+
+#: /cp.php:127
+msgid "Before changing any setting, please verify that your details below are correct."
+msgstr ""
+
+#: /cp.php:128
+msgid "Send me reservation reminders by email"
+msgstr ""
+
+#: /cp.php:140
+msgid "Your details"
+msgstr ""
+
+#: /cp.php:142
+msgid "If you change your email, you must use the new one to log in. Password can be left blank to leave unchanged."
+msgstr ""
+
+#: /cp.php:147 /functions.php:240 /functions.php:363 /login.php:34
+msgid "Name"
+msgstr ""
+
+#: /cp.php:149 /functions.php:240 /functions.php:363 /login.php:36
+#: /login.php:103
+msgid "Email"
+msgstr ""
+
+#: /cp.php:152 /login.php:38 /login.php:104
+msgid "Password"
+msgstr ""
+
+#: /cp.php:154 /login.php:40
+msgid "Confirm password"
+msgstr ""
+
+#: /cp.php:158
+msgid "Update my details"
+msgstr ""
+
+#: /error.php:9
+msgid "Error"
+msgstr ""
+
+#: /error.php:30
+msgid "Salt must be 9 characters. Check config.php."
+msgstr ""
+
+#: /error.php:34
+msgid "You must enable JavaScript in your browser"
+msgstr ""
+
+#: /error.php:38
+msgid "You must enable cookies in your browser"
+msgstr ""
+
+#: /error.php:42
+msgid "Unknown error"
+msgstr ""
+
+#: /error.php:49
+msgid "Click here to go back"
+msgstr ""
+
+#: /functions.php:182 /functions.php:525
+msgid "Name must be <u>letters only</u> and be <u>2 to 12 letters long</u>. If your name is longer, use a short version of your name"
+msgstr ""
+
+#: /functions.php:186 /functions.php:529
+msgid "Email must be a valid email address and be no more than 50 characters long"
+msgstr ""
+
+#: /functions.php:190 /functions.php:533
+msgid "Password must be at least 4 characters"
+msgstr ""
+
+#: /functions.php:194
+msgid "Wrong secret code"
+msgstr ""
+
+#: /functions.php:198 /functions.php:537
+msgid "Name is already in use. If you have the same name as someone else, use another spelling that identifies you"
+msgstr ""
+
+#: /functions.php:202
+msgid "Email is already registered."
+msgstr ""
+
+#: /functions.php:202
+msgid "Forgot your password?"
+msgstr ""
+
+#: /functions.php:236
+msgid "There are no admins"
+msgstr ""
+
+#: /functions.php:285
+msgid "Reservation made"
+msgstr ""
+
+#: /functions.php:285
+msgid "User's email"
+msgstr ""
+
+#: /functions.php:304 /functions.php:333
+msgid "You can't reserve back in time"
+msgstr ""
+
+#: /functions.php:308
+#, php-format
+msgid "You can only reserve %c weeks forward in time"
+msgstr ""
+
+#: /functions.php:324
+msgid "Someone else just reserved this time"
+msgstr ""
+
+#: /functions.php:337
+msgid "You can only reserve weeks forward in time"
+msgstr ""
+
+#: /functions.php:352
+msgid "You can't remove other user's reservations"
+msgstr ""
+
+#: /functions.php:363
+msgid "ID"
+msgstr ""
+
+#: /functions.php:363
+msgid "Admin"
+msgstr ""
+
+#: /functions.php:363
+msgid "Reminders"
+msgstr ""
+
+#: /functions.php:363
+msgid "Usage"
+msgstr ""
+
+#: /functions.php:363 /functions.php:468
+msgid "Cost"
+msgstr ""
+
+#: /functions.php:388
+#, php-format
+msgid "The password to the user with ID %1$c is now %2$s. The user can now log in and change the password"
+msgstr ""
+
+#: /functions.php:396
+msgid "Sorry, you can't use your superuser powers to remove them"
+msgstr ""
+
+#: /functions.php:410
+msgid "Sorry, self-destructive behaviour is not accepted"
+msgstr ""
+
+#: /functions.php:454
+msgid "Price must be a number (use . and not , if you want to use decimals)"
+msgstr ""
+
+#: /functions.php:468 /help.php:13
+msgid "Reservations"
+msgstr ""
+
+#: /functions.php:468
+msgid "Current price per reservation"
+msgstr ""
+
+#: /functions.php:541
+msgid "Email is already registered"
+msgstr ""
+
+#: /header.php:11 /help.php:10
+msgid "Help"
+msgstr ""
+
+#: /header.php:22
+msgid "Week"
+msgstr ""
+
+#: /header.php:33
+msgid "Log out"
+msgstr ""
+
+#: /header.php:37
+msgid "Not logged in"
+msgstr ""
+
+#: /help.php:16
+msgid "How much does it cost?"
+msgstr ""
+
+#: /help.php:16
+msgid "The current price per reservation is "
+msgstr ""
+
+#: /help.php:17
+msgid "How do I make a reservation?"
+msgstr ""
+
+#: /help.php:17
+msgid "Click on the time you wish to reserve."
+msgstr ""
+
+#: /help.php:18
+msgid "How do I remove a reservation?"
+msgstr ""
+
+#: /help.php:18
+msgid "Click on the reservation you wish to remove."
+msgstr ""
+
+#: /help.php:19
+msgid "If I have used without making a reservation first, how do I register it?"
+msgstr ""
+
+#: /help.php:19
+#, php-format
+msgid "Go to the %s and click on \"Add 1 to my reservations.\""
+msgstr ""
+
+#: /help.php:19 /help.php:20 /help.php:22 /help.php:28 /help.php:42
+#: /help.php:43
+msgid "control panel"
+msgstr ""
+
+#: /help.php:20
+msgid "How do I check my usage?"
+msgstr ""
+
+#: /help.php:20
+msgid "You can check your usage in the"
+msgstr ""
+
+#: /help.php:21
+msgid "What reservation restrictions are there?"
+msgstr ""
+
+#: /help.php:21
+msgid "You can't make or remove reservations back in time or remove other user's reservations. The webmaster may restrict how many weeks forward in time you can make reservations."
+msgstr ""
+
+#: /help.php:22
+msgid "Can I get reservation reminders?"
+msgstr ""
+
+#: /help.php:22
+msgid "If the webmaster has enabled it, you can turn it on in the"
+msgstr ""
+
+#: /help.php:25
+msgid "Other"
+msgstr ""
+
+#: /help.php:28
+msgid "How do I change my name, email and/or password?"
+msgstr ""
+
+#: /help.php:28 /help.php:42 /help.php:43
+msgid "You can do that in the"
+msgstr ""
+
+#: /help.php:38
+msgid "Admin help"
+msgstr ""
+
+#: /help.php:41
+msgid "Are there any reservation restrictions for admins?"
+msgstr ""
+
+#: /help.php:41
+msgid "No, you can make and remove reservations back and forward in time as you wish, and you can delete other user's reservations. It will require a confirmation."
+msgstr ""
+
+#: /help.php:42
+msgid "How do I manage users and reservations?"
+msgstr ""
+
+#: /help.php:42
+msgid "You can reset a user's passwords (if the user has forgot it), change a user's permissions (admin or not), delete a user's reservations and delete a user. Just pick a user and choose what to do. All the red buttons will require a confirmation."
+msgstr ""
+
+#: /help.php:43
+msgid "Can I delete all users and reservations?"
+msgstr ""
+
+#: /help.php:43
+msgid "Your user and reservations will not be deleted unless you choose to delete everything."
+msgstr ""
+
+#: /help.php:44
+msgid "How do I change the other options, like possible reservation times, secret code etc?"
+msgstr ""
+
+#: /help.php:44
+msgid "The webmaster must do that in the configuration file (config.php)."
+msgstr ""
+
+#: /help.php:45
+msgid "Will changing the price affect previous reservations?"
+msgstr ""
+
+#: /help.php:45
+msgid "No. A new price will only apply for reservations made after the price change."
+msgstr ""
+
+#: /js/main-js.php:91
+msgid "Invalid week number"
+msgstr ""
+
+#: /js/main-js.php:150 /js/main-js.php:161 /js/main-js.php:171
+#: /js/main-js.php:191
+msgid "Loading..."
+msgstr ""
+
+#: /js/main-js.php:184
+msgid "Day have changed. Refreshing..."
+msgstr ""
+
+#: /js/main-js.php:202
+msgid "Getting latest version..."
+msgstr ""
+
+#: /js/main-js.php:224
+msgid "Logging in..."
+msgstr ""
+
+#: /js/main-js.php:248
+msgid "Wrong email and/or password"
+msgstr ""
+
+#: /js/main-js.php:285 /js/main-js.php:723
+msgid "Passwords do not match"
+msgstr ""
+
+#: /js/main-js.php:292
+msgid "Creating user..."
+msgstr ""
+
+#: /js/main-js.php:302
+msgid "User created successfully! Logging in..."
+msgstr ""
+
+#: /js/main-js.php:323
+msgid "You are reserving back in time. You can do that because you are an admin"
+msgstr ""
+
+#: /js/main-js.php:327
+#, php-format
+msgid "You are reserving more than %d weeks forward in time. You can do that because you are an admin"
+msgstr ""
+
+#: /js/main-js.php:356
+msgid "One click is enough"
+msgstr ""
+
+#: /js/main-js.php:362
+msgid "This is not your reservation, but because you are an admin you can remove other users reservations. Are you sure you want to do this?"
+msgstr ""
+
+#: /js/main-js.php:371 /js/main-js.php:407
+msgid "Wait..."
+msgstr ""
+
+#: /js/main-js.php:389
+msgid "You can not remove other users reservations"
+msgstr ""
+
+#: /js/main-js.php:415
+msgid "Getting details..."
+msgstr ""
+
+#: /js/main-js.php:430 /js/main-js.php:434
+msgid "This reservation no longer exists. Wait..."
+msgstr ""
+
+#: /js/main-js.php:449
+msgid "Delete"
+msgstr ""
+
+#: /js/main-js.php:456
+msgid "Close this"
+msgstr ""
+
+#: /js/main-js.php:482
+msgid "Resetting password..."
+msgstr ""
+
+#: /js/main-js.php:488
+msgid "You can change your password at the bottom of this page"
+msgstr ""
+
+#: /js/main-js.php:498 /js/main-js.php:528 /js/main-js.php:573
+msgid "You must pick a user"
+msgstr ""
+
+#: /js/main-js.php:508
+msgid "Changing permissions..."
+msgstr ""
+
+#: /js/main-js.php:517
+msgid "Permissions changed successfully. The user must re-login to get the new permissions"
+msgstr ""
+
+#: /js/main-js.php:536
+msgid "Are you sure?"
+msgstr ""
+
+#: /js/main-js.php:542 /js/main-js.php:594
+msgid "Deleting..."
+msgstr ""
+
+#: /js/main-js.php:581
+msgid "Are you sure you want to delete ALL reservations? Database backup is a good idea!"
+msgstr ""
+
+#: /js/main-js.php:585
+msgid "Are you sure you want to delete ALL users? Database backup is a good idea!"
+msgstr ""
+
+#: /js/main-js.php:589
+msgid "Are you sure you want to delete EVERYTHING (including you)? The first user created afterwards will become admin. Database backup is a good idea!"
+msgstr ""
+
+#: /js/main-js.php:625 /js/main-js.php:664 /js/main-js.php:690
+msgid "Saving..."
+msgstr ""
+
+#: /js/main-js.php:730
+msgid "Saving and refreshing..."
+msgstr ""
+
+#: /login.php:29 /login.php:111
+msgid "New user"
+msgstr ""
+
+#: /login.php:47
+msgid "Secret code"
+msgstr ""
+
+#: /login.php:47
+msgid "What's this?"
+msgstr ""
+
+#: /login.php:52
+msgid "Create user"
+msgstr ""
+
+#: /login.php:58
+msgid "Information"
+msgstr ""
+
+#: /login.php:60
+msgid "With just a click you can make your reservation"
+msgstr ""
+
+#: /login.php:61
+msgid "Your usage is stored automatically"
+msgstr ""
+
+#: /login.php:62
+msgid "Your password is encrypted and can't be read"
+msgstr ""
+
+#: /login.php:65
+#, php-format
+msgid "Secret code is used to only allow certain people to create a new user. Contact the webmaster by email at %s to get the secret code."
+msgstr ""
+
+#: /login.php:83 /login.php:111
+msgid "Forgot password"
+msgstr ""
+
+#: /login.php:85
+msgid "Contact one of the admins below by email and write that you've forgotten your password, and you will get a new one. The password can be changed after logging in."
+msgstr ""
+
+#: /login.php:99 /login.php:106
+msgid "Log in"
+msgstr ""
+
+#: /login.php:105
+msgid "Remember me"
+msgstr ""
+
+#: /main.php:98
+msgid "Could not get latest version"
+msgstr ""
+
+#: /main.php:102
+msgid "Latest version"
+msgstr ""
+
+#: /reminders.php:29
+msgid "Reservation reminder"
+msgstr ""
+
+#: /reminders.php:30
+msgid "This is a reservation reminder for today.\\r\\n\\nYou have made a reservation at the following time(s)"
+msgstr ""
+
+#: /reminders.php:30
+msgid "If you don't want to receive reservation reminders, you can turn it off in the control panel."
+msgstr ""
+
+#: /reservation.php:41
+msgid "Today"
+msgstr ""
+
+#: /reservation.php:41
+msgid "Monday"
+msgstr ""
+
+#: /reservation.php:41
+msgid "Tuesday"
+msgstr ""
+
+#: /reservation.php:41
+msgid "Wednesday"
+msgstr ""
+
+#: /reservation.php:41
+msgid "Thursday"
+msgstr ""
+
+#: /reservation.php:41
+msgid "Friday"
+msgstr ""
+
+#: /reservation.php:41
+msgid "Saturday"
+msgstr ""
+
+#: /reservation.php:41
+msgid "Sunday"
+msgstr ""
+
+#: /reservation.php:72
+msgid "Previous week"
+msgstr ""
+
+#: /reservation.php:72
+msgid "Reservations for week"
+msgstr ""
+
+#: /reservation.php:72
+msgid "Next week"
 msgstr ""
