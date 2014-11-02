@@ -6,12 +6,12 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: reservation\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-11-01 18:28-0200\n"
 "PO-Revision-Date: 2014-11-01 18:28-0200\n"
 "Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"Language-Team: Ricardo\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,144 +20,144 @@ msgstr ""
 
 #: /about.php:8 /cp.php:58 /help.php:10 /login.php:29 /login.php:83
 msgid "Start"
-msgstr ""
+msgstr "Início"
 
 #: /about.php:8 /header.php:5
 msgid "About"
-msgstr ""
+msgstr "Sobre"
 
 #: /about.php:13
 msgid "Visit website"
-msgstr ""
+msgstr "Visite a página"
 
 #: /config.php:22
 msgid "Tennis court reservation"
-msgstr ""
+msgstr "Tennis court reservas"
 
 #: /config.php:25
 msgid "Local tennis club"
-msgstr ""
+msgstr "Local tennis club"
 
 #: /cp.php:58 /header.php:33
 msgid "Control panel"
-msgstr ""
+msgstr "Painel de controle"
 
 #: /cp.php:65
 msgid "User administration"
-msgstr ""
+msgstr "Administração do usuário"
 
 #: /cp.php:69
 msgid "Reset password"
-msgstr ""
+msgstr "Reiniciar senha"
 
 #: /cp.php:69
 msgid "Change permissions"
-msgstr ""
+msgstr "Mudar permissões"
 
 #: /cp.php:69
 msgid "Delete reservations"
-msgstr ""
+msgstr "Deletar reservas"
 
 #: /cp.php:69
 msgid "Delete user"
-msgstr ""
+msgstr "Deletar usuário"
 
 #: /cp.php:74
 msgid "Database administration"
-msgstr ""
+msgstr "Administração do banco de dados"
 
 #: /cp.php:76
 msgid "These will require a confirmation. Your user and reservations will not be deleted unless you delete everything."
-msgstr ""
+msgstr "Isto precisará de uma confirmação. Seu usuário e senha não serão excluídos a menos que você exclua tudo."
 
 #: /cp.php:78
 msgid "Delete all reservations"
-msgstr ""
+msgstr "Deletar todas reservas"
 
 #: /cp.php:78
 msgid "Delete all users"
-msgstr ""
+msgstr "Deletar todos usuários"
 
 #: /cp.php:78
 msgid "Delete everything"
-msgstr ""
+msgstr "Deletar tudo"
 
 #: /cp.php:84
 msgid "System configuration"
-msgstr ""
+msgstr "Configuração do sistema"
 
 #: /cp.php:86
 msgid "Changing the price will not affect previous reservations."
-msgstr ""
+msgstr "Alterar o preço não afetará as reservas anteriores."
 
 #: /cp.php:90
 msgid "Price per reservation, in"
-msgstr ""
+msgstr "Preço por reserva, em"
 
 #: /cp.php:92
 msgid "Save configuration"
-msgstr ""
+msgstr "Salvar configuração"
 
 #: /cp.php:106
 msgid "Your usage"
-msgstr ""
+msgstr "Seu uso"
 
 #: /cp.php:108
 msgid "If you have used without making a reservation first, please click the button below. It can't be undone."
-msgstr ""
+msgstr "Se você usou sem fazer antes fazer uma reserva, por favor clique no botão abaixo. Isto não pode ser desfeito."
 
 #: /cp.php:112
 msgid "Add 1 to my reservations"
-msgstr ""
+msgstr "Add 1 nas minhas reservas"
 
 #: /cp.php:125
 msgid "Your settings"
-msgstr ""
+msgstr "Suas configurações"
 
 #: /cp.php:127
 msgid "Before changing any setting, please verify that your details below are correct."
-msgstr ""
+msgstr "Antes de alterar qualquer configuração, por favor verifique se os seus dados abaixo estão corretos."
 
 #: /cp.php:128
 msgid "Send me reservation reminders by email"
-msgstr ""
+msgstr "Me envie lembretes das reservas por email"
 
 #: /cp.php:140
 msgid "Your details"
-msgstr ""
+msgstr "Seus dados"
 
 #: /cp.php:142
 msgid "If you change your email, you must use the new one to log in. Password can be left blank to leave unchanged."
-msgstr ""
+msgstr "Se você alterar seu email, você deve usar o novo para fazer login. A senha pode ser deixada em branco para deixar inalterada."
 
 #: /cp.php:147 /functions.php:240 /functions.php:363 /login.php:34
 msgid "Name"
-msgstr ""
+msgstr "Nome"
 
 #: /cp.php:149 /functions.php:240 /functions.php:363 /login.php:36
 #: /login.php:103
 msgid "Email"
-msgstr ""
+msgstr "Email"
 
 #: /cp.php:152 /login.php:38 /login.php:104
 msgid "Password"
-msgstr ""
+msgstr "Senha"
 
 #: /cp.php:154 /login.php:40
 msgid "Confirm password"
-msgstr ""
+msgstr "Confirme a senha"
 
 #: /cp.php:158
 msgid "Update my details"
-msgstr ""
+msgstr "Atualize meus dados"
 
 #: /error.php:9
 msgid "Error"
-msgstr ""
+msgstr "Erro"
 
 #: /error.php:30
 msgid "Salt must be 9 characters. Check config.php."
-msgstr ""
+msgstr "Salt deve ser de 9 caracteres. Verifique config.php"
 
 #: /error.php:34
 msgid "You must enable JavaScript in your browser"
