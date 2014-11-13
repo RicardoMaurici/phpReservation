@@ -381,288 +381,288 @@ msgstr "Admin ajuda"
 
 #: /help.php:41
 msgid "Are there any reservation restrictions for admins?"
-msgstr ""
+msgstr "Existem restrições de reserva para admins?"
 
 #: /help.php:41
 msgid "No, you can make and remove reservations back and forward in time as you wish, and you can delete other user's reservations. It will require a confirmation."
-msgstr ""
+msgstr "Não, você pode realizar e remover reservas no futuro ou passado como você desejar e você pode deletar reservas de outros usuários. Isto solicitará uma confirmação"
 
 #: /help.php:42
 msgid "How do I manage users and reservations?"
-msgstr ""
+msgstr "Como eu gerencio usuários e reservas?"
 
 #: /help.php:42
 msgid "You can reset a user's passwords (if the user has forgot it), change a user's permissions (admin or not), delete a user's reservations and delete a user. Just pick a user and choose what to do. All the red buttons will require a confirmation."
-msgstr ""
+msgstr "Você pode redefinir senhas(se o usuário esquecer), alterar permissão do usuário(admin ou não), deletar reservas do usuário e excluir um usuário. Basta selecionar um usuário e escolher o que fazer. Todos os botões vermelhos solicitará confirmação."
 
 #: /help.php:43
 msgid "Can I delete all users and reservations?"
-msgstr ""
+msgstr "Posso deletar todos usuários e reservas?"
 
 #: /help.php:43
 msgid "Your user and reservations will not be deleted unless you choose to delete everything."
-msgstr ""
+msgstr "Seu usuário e reservas não será deletado a não ser que você escolha deletar tudo."
 
 #: /help.php:44
 msgid "How do I change the other options, like possible reservation times, secret code etc?"
-msgstr ""
+msgstr "Como eu altero outras opções, como possível horário de reserva, código secreto etc?"
 
 #: /help.php:44
 msgid "The webmaster must do that in the configuration file (config.php)."
-msgstr ""
+msgstr "O webmaster deve fazer isso no arquivo de configuração (config.php)."
 
 #: /help.php:45
 msgid "Will changing the price affect previous reservations?"
-msgstr ""
+msgstr "Alterar o preço irá afetar reservas anteriores?"
 
 #: /help.php:45
 msgid "No. A new price will only apply for reservations made after the price change."
-msgstr ""
+msgstr "Não. Um novo preço será aplicado somente para reservas feita a partir da mudança do novo valor."
 
 #: /js/main-js.php:91
 msgid "Invalid week number"
-msgstr ""
+msgstr "Número de semana inválido"
 
 #: /js/main-js.php:150 /js/main-js.php:161 /js/main-js.php:171
 #: /js/main-js.php:191
 msgid "Loading..."
-msgstr ""
+msgstr "Carregando..."
 
 #: /js/main-js.php:184
 msgid "Day have changed. Refreshing..."
-msgstr ""
+msgstr "Dia foi alterado. Reiniciando..."
 
 #: /js/main-js.php:202
 msgid "Getting latest version..."
-msgstr ""
+msgstr "Recebendo versão mais recente..."
 
 #: /js/main-js.php:224
 msgid "Logging in..."
-msgstr ""
+msgstr "Entrando..."
 
 #: /js/main-js.php:248
 msgid "Wrong email and/or password"
-msgstr ""
+msgstr "Email e/ou senha errado"
 
 #: /js/main-js.php:263
 msgid "Logging out..."
-msgstr ""
+msgstr "Desconectando..."
 
 #: /js/main-js.php:285 /js/main-js.php:723
 msgid "Passwords do not match"
-msgstr ""
+msgstr "Senhas não combinam"
 
 #: /js/main-js.php:292
 msgid "Creating user..."
-msgstr ""
+msgstr "Criando usuário..."
 
 #: /js/main-js.php:302
 msgid "User created successfully! Logging in..."
-msgstr ""
+msgstr "Usuário criado com sucesso! Entrando..."
 
 #: /js/main-js.php:323
 msgid "You are reserving back in time. You can do that because you are an admin"
-msgstr ""
+msgstr "Você está reservando horário passado. Você pode fazer isso porque é um admin"
 
 #: /js/main-js.php:327
 #, php-format
 msgid "You are reserving more than %d weeks forward in time. You can do that because you are an admin"
-msgstr ""
+msgstr "Você está reservando mais de %d semanas a frente. Você pode fazer isso porque é um admin"
 
 #: /js/main-js.php:335 /js/main-js.php:354 /js/main-js.php:371
 #: /js/main-js.php:407
 msgid "Wait..."
-msgstr ""
+msgstr "Espere..."
 
 #: /js/main-js.php:356
 msgid "One click is enough"
-msgstr ""
+msgstr "Um clique é suficiente"
 
 #: /js/main-js.php:362
 msgid "This is not your reservation, but because you are an admin you can remove other users reservations. Are you sure you want to do this?"
-msgstr ""
+msgstr "Esta reserva não é sua, mas porque você é admin você pode remover reservas de outros usuários. Você tem certeza disto?"
 
 #: /js/main-js.php:389
 msgid "You can not remove other users reservations"
-msgstr ""
+msgstr "Você não pode remover reservas de outros usuários"
 
 #: /js/main-js.php:415
 msgid "Getting details..."
-msgstr ""
+msgstr "Recebendo detalhes..."
 
 #: /js/main-js.php:430 /js/main-js.php:434
 msgid "This reservation no longer exists. Wait..."
-msgstr ""
+msgstr "Esta reserva não existe mais. Espere..."
 
 #: /js/main-js.php:449
 msgid "Delete"
-msgstr ""
+msgstr "Deletar"
 
 #: /js/main-js.php:456
 msgid "Close this"
-msgstr ""
+msgstr "Feche isto"
 
 #: /js/main-js.php:482
 msgid "Resetting password..."
-msgstr ""
+msgstr "Reiniciando senha..."
 
 #: /js/main-js.php:488
 msgid "You can change your password at the bottom of this page"
-msgstr ""
+msgstr "Você pode alterar sua senha na parte inferior desta página"
 
 #: /js/main-js.php:498 /js/main-js.php:528 /js/main-js.php:573
 msgid "You must pick a user"
-msgstr ""
+msgstr "Você deve selecionar um usuário"
 
 #: /js/main-js.php:508
 msgid "Changing permissions..."
-msgstr ""
+msgstr "Alterando permissões..."
 
 #: /js/main-js.php:517
 msgid "Permissions changed successfully. The user must re-login to get the new permissions"
-msgstr ""
+msgstr "Permissões alterada com sucesso. O usuário deve re-conectar para receber novas permissões"
 
 #: /js/main-js.php:536
 msgid "Are you sure?"
-msgstr ""
+msgstr "Você tem certeza?"
 
 #: /js/main-js.php:542 /js/main-js.php:594
 msgid "Deleting..."
-msgstr ""
+msgstr "Deletando..."
 
 #: /js/main-js.php:581
 msgid "Are you sure you want to delete ALL reservations? Database backup is a good idea!"
-msgstr ""
+msgstr "Você tem certeza que quer deletar TODAS reservas? Backup do banco de dados é uma boa idéia!"
 
 #: /js/main-js.php:585
 msgid "Are you sure you want to delete ALL users? Database backup is a good idea!"
-msgstr ""
+msgstr "Você tem certeza que quer deletar TODOS usuários? Backup do banco de dados é uma boa idéia!"
 
 #: /js/main-js.php:589
 msgid "Are you sure you want to delete EVERYTHING (including you)? The first user created afterwards will become admin. Database backup is a good idea!"
-msgstr ""
+msgstr "Você tem certeza que quer deletar TUDO (incluindo você)? O primeiro usuário criado após isso será admin. Backup do banco de dados é uma boa idéia!"
 
 #: /js/main-js.php:625 /js/main-js.php:664 /js/main-js.php:690
 msgid "Saving..."
-msgstr ""
+msgstr "Salvando..."
 
 #: /js/main-js.php:730
 msgid "Saving and refreshing..."
-msgstr ""
+msgstr "Salvando e reiniciando..."
 
 #: /login.php:29 /login.php:111
 msgid "New user"
-msgstr ""
+msgstr "Novo usuário"
 
 #: /login.php:47
 msgid "Secret code"
-msgstr ""
+msgstr "Código secreto"
 
 #: /login.php:47
 msgid "What's this?"
-msgstr ""
+msgstr "O que é isto?"
 
 #: /login.php:52
 msgid "Create user"
-msgstr ""
+msgstr "Criar usuário"
 
 #: /login.php:58
 msgid "Information"
-msgstr ""
+msgstr "Informação"
 
 #: /login.php:60
 msgid "With just a click you can make your reservation"
-msgstr ""
+msgstr "Com somente um cliquei você pode fazer sua reserva"
 
 #: /login.php:61
 msgid "Your usage is stored automatically"
-msgstr ""
+msgstr "Seu uso é automaticamente registrado"
 
 #: /login.php:62
 msgid "Your password is encrypted and can't be read"
-msgstr ""
+msgstr "Sua senha é codificada e não pode ser lida"
 
 #: /login.php:65
 #, php-format
 msgid "Secret code is used to only allow certain people to create a new user. Contact the webmaster by email at %s to get the secret code."
-msgstr ""
+msgstr "Código secreto é uso para somente permitir pessoas autorizadas para criar um novo usuário. Contacte o webmaster por email em %s para receber o código secreto."
 
 #: /login.php:83 /login.php:111
 msgid "Forgot password"
-msgstr ""
+msgstr "Senha esquecida"
 
 #: /login.php:85
 msgid "Contact one of the admins below by email and write that you've forgotten your password, and you will get a new one. The password can be changed after logging in."
-msgstr ""
+msgstr "Contacte um dos admins abaixo por email, diga que você esqueceu sua senha e você receberá uma nova senha. A senha pode ser alterada após conectar."
 
 #: /login.php:99 /login.php:106
 msgid "Log in"
-msgstr ""
+msgstr "Conectar"
 
 #: /login.php:105
 msgid "Remember me"
-msgstr ""
+msgstr "Lembre de mim"
 
 #: /main.php:98
 msgid "Could not get latest version"
-msgstr ""
+msgstr "Não foi possivel obter versão mais recente"
 
 #: /main.php:102
 msgid "Latest version"
-msgstr ""
+msgstr "Última versão"
 
 #: /reminders.php:29
 msgid "Reservation reminder"
-msgstr ""
+msgstr "Lembrete de reserva"
 
 #: /reminders.php:30
 msgid "This is a reservation reminder for today.\\r\\n\\nYou have made a reservation at the following time(s)"
-msgstr ""
+msgstr "Isto é um lembrete de reserva para hoje.\\r\\n\\nVocê fez reserva no seguinte horário(s)"
 
 #: /reminders.php:30
 msgid "If you don't want to receive reservation reminders, you can turn it off in the control panel."
-msgstr ""
+msgstr "Se você não quiser receber lembretes de reserva, você pode desligar isto no painel de controle."
 
 #: /reservation.php:41
 msgid "Today"
-msgstr ""
+msgstr "Hoje"
 
 #: /reservation.php:41
 msgid "Monday"
-msgstr ""
+msgstr "Segunda-feira"
 
 #: /reservation.php:41
 msgid "Tuesday"
-msgstr ""
+msgstr "Terça-feira"
 
 #: /reservation.php:41
 msgid "Wednesday"
-msgstr ""
+msgstr "Quarta-feira"
 
 #: /reservation.php:41
 msgid "Thursday"
-msgstr ""
+msgstr "Quinta-feira"
 
 #: /reservation.php:41
 msgid "Friday"
-msgstr ""
+msgstr "Sexta-feira"
 
 #: /reservation.php:41
 msgid "Saturday"
-msgstr ""
+msgstr "Sábado"
 
 #: /reservation.php:41
 msgid "Sunday"
-msgstr ""
+msgstr "Domingo"
 
 #: /reservation.php:72
 msgid "Previous week"
-msgstr ""
+msgstr "Semana anterior"
 
 #: /reservation.php:72
 msgid "Reservations for week"
-msgstr ""
+msgstr "Reservas para semana"
 
 #: /reservation.php:72
 msgid "Next week"
-msgstr ""
+msgstr "Próxima semana"
