@@ -161,223 +161,223 @@ msgstr "Salt deve ser de 9 caracteres. Verifique config.php"
 
 #: /error.php:34
 msgid "You must enable JavaScript in your browser"
-msgstr ""
+msgstr "Você deve ativar o JavaScript no seu navegador"
 
 #: /error.php:38
 msgid "You must enable cookies in your browser"
-msgstr ""
+msgstr "Você deve ativar cookies no seu navegador"
 
 #: /error.php:42
 msgid "Unknown error"
-msgstr ""
+msgstr "Erro desconhecido"
 
 #: /error.php:49
 msgid "Click here to go back"
-msgstr ""
+msgstr "Clique aqui para voltar"
 
 #: /functions.php:182 /functions.php:525
 msgid "Name must be <u>letters only</u> and be <u>2 to 12 letters long</u>. If your name is longer, use a short version of your name"
-msgstr ""
+msgstr "Nome deve ser <u>somente letras</u>  e  de <u>2 à 12 letras</u>. Se seu nome é maior, use uma abreviação"
 
 #: /functions.php:186 /functions.php:529
 msgid "Email must be a valid email address and be no more than 50 characters long"
-msgstr ""
+msgstr "O endereço de email deve ser válido e não mais que 50 caracteres"
 
 #: /functions.php:190 /functions.php:533
 msgid "Password must be at least 4 characters"
-msgstr ""
+msgstr "Senha deve ser no minimo de 4 caracteres"
 
 #: /functions.php:194
 msgid "Wrong secret code"
-msgstr ""
+msgstr "Código secreto errado"
 
 #: /functions.php:198 /functions.php:537
 msgid "Name is already in use. If you have the same name as someone else, use another spelling that identifies you"
-msgstr ""
+msgstr "Nome já em uso. Se você possui o mesmo nome que outra pessoa, use outro nome que identifique você"
 
 #: /functions.php:202
 msgid "Email is already registered."
-msgstr ""
+msgstr "Email já registrado"
 
 #: /functions.php:202
 msgid "Forgot your password?"
-msgstr ""
+msgstr "Esqueceu sua senha?"
 
 #: /functions.php:236
 msgid "There are no admins"
-msgstr ""
+msgstr "Não há ADMIN"
 
 #: /functions.php:285
 msgid "Reservation made"
-msgstr ""
+msgstr "Reserva realizada"
 
 #: /functions.php:285
 msgid "User's email"
-msgstr ""
+msgstr "Email do usuário"
 
 #: /functions.php:304 /functions.php:333
 msgid "You can't reserve back in time"
-msgstr ""
+msgstr "Você não pode reservar em um horário anterior"
 
 #: /functions.php:308
 #, php-format
 msgid "You can only reserve %c weeks forward in time"
-msgstr ""
+msgstr "Você só pode reservar %c semanas a frente"
 
 #: /functions.php:324
 msgid "Someone else just reserved this time"
-msgstr ""
+msgstr "Alguém já reservou esse horário"
 
 #: /functions.php:337
 msgid "You can only reserve weeks forward in time"
-msgstr ""
+msgstr "Você só pode reservar semanas a frente"
 
 #: /functions.php:352
 msgid "You can't remove other user's reservations"
-msgstr ""
+msgstr "Você não pode remover reservas de outros usuários"
 
 #: /functions.php:363
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #: /functions.php:363
 msgid "Admin"
-msgstr ""
+msgstr "Admin"
 
 #: /functions.php:363
 msgid "Reminders"
-msgstr ""
+msgstr "Lembretes"
 
 #: /functions.php:363
 msgid "Usage"
-msgstr ""
+msgstr "Uso"
 
 #: /functions.php:363 /functions.php:468
 msgid "Cost"
-msgstr ""
+msgstr "Custo"
 
 #: /functions.php:388
 #, php-format
 msgid "The password to the user with ID %1$c is now %2$s. The user can now log in and change the password"
-msgstr ""
+msgstr "A senha para o usuário com ID %1$c agora é %2$s. O usuário agora pode entrar e mudar a senha"
 
 #: /functions.php:396
 msgid "Sorry, you can't use your superuser powers to remove them"
-msgstr ""
+msgstr "Desculpe, você não pode usar seus poderes de super-usuário para remover eles"
 
 #: /functions.php:410
 msgid "Sorry, self-destructive behaviour is not accepted"
-msgstr ""
+msgstr "Desculpe, não é aceito comportamento auto destrutivo"
 
 #: /functions.php:454
 msgid "Price must be a number (use . and not , if you want to use decimals)"
-msgstr ""
+msgstr "Preço deve ser um número (use . e não , se você quiser usar decimal"
 
 #: /functions.php:468 /help.php:13
 msgid "Reservations"
-msgstr ""
+msgstr "Reservas"
 
 #: /functions.php:468
 msgid "Current price per reservation"
-msgstr ""
+msgstr "Preço atual por reserva"
 
 #: /functions.php:541
 msgid "Email is already registered"
-msgstr ""
+msgstr "Email já registrado"
 
 #: /header.php:11 /help.php:10
 msgid "Help"
-msgstr ""
+msgstr "Ajuda"
 
 #: /header.php:22
 msgid "Week"
-msgstr ""
+msgstr "Semana"
 
 #: /header.php:33
 msgid "Log out"
-msgstr ""
+msgstr "Desconectar"
 
 #: /header.php:37
 msgid "Not logged in"
-msgstr ""
+msgstr "Não conectado"
 
 #: /help.php:16
 msgid "How much does it cost?"
-msgstr ""
+msgstr "Quando isto custo?"
 
 #: /help.php:16
 msgid "The current price per reservation is "
-msgstr ""
+msgstr "O preço atual por reserva é"
 
 #: /help.php:17
 msgid "How do I make a reservation?"
-msgstr ""
+msgstr "Como eu faço uma reserva"
 
 #: /help.php:17
 msgid "Click on the time you wish to reserve."
-msgstr ""
+msgstr "Clique no horário que você deseja reservar"
 
 #: /help.php:18
 msgid "How do I remove a reservation?"
-msgstr ""
+msgstr "Como eu removo uma reserva?"
 
 #: /help.php:18
 msgid "Click on the reservation you wish to remove."
-msgstr ""
+msgstr "Clique na reserva que você deseja remover."
 
 #: /help.php:19
 msgid "If I have used without making a reservation first, how do I register it?"
-msgstr ""
+msgstr "Se eu tenho usado sem primeiro fazer uma reserva, como eu registro isso?"
 
 #: /help.php:19
 #, php-format
 msgid "Go to the %s and click on \"Add 1 to my reservations.\""
-msgstr ""
+msgstr "Vá até %s e clique em \"Add 1 para minhas reservas.\""
 
 #: /help.php:19 /help.php:20 /help.php:22 /help.php:28 /help.php:42
 #: /help.php:43
 msgid "control panel"
-msgstr ""
+msgstr "Painel de controle"
 
 #: /help.php:20
 msgid "How do I check my usage?"
-msgstr ""
+msgstr "Como eu verifico meu uso?"
 
 #: /help.php:20
 msgid "You can check your usage in the"
-msgstr ""
+msgstr "Você pode verificar seu uso no"
 
 #: /help.php:21
 msgid "What reservation restrictions are there?"
-msgstr ""
+msgstr "Quais restrições de reserva existem?"
 
 #: /help.php:21
 msgid "You can't make or remove reservations back in time or remove other user's reservations. The webmaster may restrict how many weeks forward in time you can make reservations."
-msgstr ""
+msgstr "Você não pode fazer ou remover reservas em horário passado ou remover de outros usuários. O webmaster pode restringir quantas semanas a frente você pode fazer reservas."
 
 #: /help.php:22
 msgid "Can I get reservation reminders?"
-msgstr ""
+msgstr "Posso ter lembretes de reserva?"
 
 #: /help.php:22
 msgid "If the webmaster has enabled it, you can turn it on in the"
-msgstr ""
+msgstr "Se estiver habilitado pelo webmaster, você pode ativar no "
 
 #: /help.php:25
 msgid "Other"
-msgstr ""
+msgstr "Outro"
 
 #: /help.php:28
 msgid "How do I change my name, email and/or password?"
-msgstr ""
+msgstr "Como eu altero meu nome, email e/ou senha?"
 
 #: /help.php:28 /help.php:42 /help.php:43
 msgid "You can do that in the"
-msgstr ""
+msgstr "Você pode fazer no"
 
 #: /help.php:38
 msgid "Admin help"
-msgstr ""
+msgstr "Admin ajuda"
 
 #: /help.php:41
 msgid "Are there any reservation restrictions for admins?"
