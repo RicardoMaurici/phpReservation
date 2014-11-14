@@ -38,7 +38,7 @@ define('global_price', get_configuration('price'));
 define('global_year', date('Y'));
 define('global_week_number', ltrim(date('W'), '0'));
 define('global_day_number', date('N'));
-define('global_day_name', date('l'));
+define('global_day_name', __(date('l')));
 
 // User agent
 

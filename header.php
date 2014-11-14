@@ -1,5 +1,6 @@
-<?php include_once('main.php'); ?>
-
+<?php include_once('main.php'); 
+require_once('config.php');
+?>
 <div id="header_inner_div"><div id="header_inner_left_div">
 
 <a href="#about"><?php echo __('About'); ?></a>
@@ -19,7 +20,10 @@ if(isset($_SESSION['logged_in']))
 
 if(isset($_SESSION['logged_in']))
 {
-	echo '<b>'.__('Week').' '. global_week_number . ' - ' . global_day_name . ' ' . date('jS F Y') . '</b>';
+	$now = new DateTime(null,new DateTimeZone(TIMEZONE)); //data atual no brasil
+	$formatter = new IntlDateFormatter(LANG, IntlDateFormatter::MEDIUM, IntlDateFormatter::MEDIUM,TIMEZONE, IntlDateFormatter::GREGORIAN);
+	echo '<b>'.__('Week').' '. global_week_number . ' - ' . global_day_name . ' ' . $formatter->format($now) . '</b>';
+
 }
 
 ?>

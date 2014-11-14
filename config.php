@@ -2,6 +2,7 @@
 
 //Lang to i18n
 define('LANG', 'pt_BR');
+define('TIMEZONE','America/Sao_Paulo');
 require_once('i18n.php');
 ### IF YOU ARE GOING TO USE THE CHARACTER ' IN ANY OF THE OPTIONS, ESCAPE IT LIKE THIS: \' ###
 
