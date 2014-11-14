@@ -9,14 +9,15 @@ msgstr ""
 "Project-Id-Version: reservation\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-11-01 18:28-0200\n"
-"PO-Revision-Date: 2014-11-01 18:28-0200\n"
+"PO-Revision-Date: 2014-11-14 14:40-0300\n"
 "Last-Translator: Automatically generated\n"
-"Language-Team: Ricardo\n"
+"Language-Team: Elanne - Ricardo\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 1.6.10\n"
 
 #: /about.php:8 /cp.php:58 /help.php:10 /login.php:29 /login.php:83
 msgid "Start"
@@ -32,7 +33,7 @@ msgstr "Visite a página"
 
 #: /config.php:22
 msgid "Tennis court reservation"
-msgstr "Tennis court reservas"
+msgstr "Reservas de Quadra de Tênis"
 
 #: /config.php:25
 msgid "Local tennis club"
@@ -67,8 +68,12 @@ msgid "Database administration"
 msgstr "Administração do banco de dados"
 
 #: /cp.php:76
-msgid "These will require a confirmation. Your user and reservations will not be deleted unless you delete everything."
-msgstr "Isto precisará de uma confirmação. Seu usuário e senha não serão excluídos a menos que você exclua tudo."
+msgid ""
+"These will require a confirmation. Your user and reservations will not be "
+"deleted unless you delete everything."
+msgstr ""
+"Isto precisará de confirmação. Seu usuário e senha não serão excluídos a "
+"menos que você exclua tudo."
 
 #: /cp.php:78
 msgid "Delete all reservations"
@@ -103,8 +108,12 @@ msgid "Your usage"
 msgstr "Seu uso"
 
 #: /cp.php:108
-msgid "If you have used without making a reservation first, please click the button below. It can't be undone."
-msgstr "Se você usou sem fazer antes fazer uma reserva, por favor clique no botão abaixo. Isto não pode ser desfeito."
+msgid ""
+"If you have used without making a reservation first, please click the button "
+"below. It can't be undone."
+msgstr ""
+"Se você usou sem fazer antes uma reserva, por favor clique no botão abaixo. "
+"Isto não pode ser desfeito."
 
 #: /cp.php:112
 msgid "Add 1 to my reservations"
@@ -115,8 +124,12 @@ msgid "Your settings"
 msgstr "Suas configurações"
 
 #: /cp.php:127
-msgid "Before changing any setting, please verify that your details below are correct."
-msgstr "Antes de alterar qualquer configuração, por favor verifique se os seus dados abaixo estão corretos."
+msgid ""
+"Before changing any setting, please verify that your details below are "
+"correct."
+msgstr ""
+"Antes de alterar qualquer configuração, por favor verifique se os seus dados "
+"abaixo estão corretos."
 
 #: /cp.php:128
 msgid "Send me reservation reminders by email"
@@ -127,8 +140,12 @@ msgid "Your details"
 msgstr "Seus dados"
 
 #: /cp.php:142
-msgid "If you change your email, you must use the new one to log in. Password can be left blank to leave unchanged."
-msgstr "Se você alterar seu email, você deve usar o novo para fazer login. A senha pode ser deixada em branco para deixar inalterada."
+msgid ""
+"If you change your email, you must use the new one to log in. Password can "
+"be left blank to leave unchanged."
+msgstr ""
+"Se você alterar seu email, você deve usar o novo para fazer login. A senha "
+"pode ser deixada em branco para deixar inalterada."
 
 #: /cp.php:147 /functions.php:240 /functions.php:363 /login.php:34
 msgid "Name"
@@ -176,12 +193,17 @@ msgid "Click here to go back"
 msgstr "Clique aqui para voltar"
 
 #: /functions.php:182 /functions.php:525
-msgid "Name must be <u>letters only</u> and be <u>2 to 12 letters long</u>. If your name is longer, use a short version of your name"
-msgstr "Nome deve ser <u>somente letras</u>  e  de <u>2 à 12 letras</u>. Se seu nome é maior, use uma abreviação"
+msgid ""
+"Name must be <u>letters only</u> and be <u>2 to 12 letters long</u>. If your "
+"name is longer, use a short version of your name"
+msgstr ""
+"Nome deve ser <u>somente letras</u>  e  de <u>2 à 12 letras</u>. Se seu nome "
+"é maior, use uma abreviação"
 
 #: /functions.php:186 /functions.php:529
-msgid "Email must be a valid email address and be no more than 50 characters long"
-msgstr "O endereço de email deve ser válido e não mais que 50 caracteres"
+msgid ""
+"Email must be a valid email address and be no more than 50 characters long"
+msgstr "O endereço de email deve ser válido e não ter mais que 50 caracteres"
 
 #: /functions.php:190 /functions.php:533
 msgid "Password must be at least 4 characters"
@@ -192,8 +214,12 @@ msgid "Wrong secret code"
 msgstr "Código secreto errado"
 
 #: /functions.php:198 /functions.php:537
-msgid "Name is already in use. If you have the same name as someone else, use another spelling that identifies you"
-msgstr "Nome já em uso. Se você possui o mesmo nome que outra pessoa, use outro nome que identifique você"
+msgid ""
+"Name is already in use. If you have the same name as someone else, use "
+"another spelling that identifies you"
+msgstr ""
+"Nome já em uso. Se você possui o mesmo nome que outra pessoa, use outro nome "
+"que identifique você"
 
 #: /functions.php:202
 msgid "Email is already registered."
@@ -258,12 +284,17 @@ msgstr "Custo"
 
 #: /functions.php:388
 #, php-format
-msgid "The password to the user with ID %1$c is now %2$s. The user can now log in and change the password"
-msgstr "A senha para o usuário com ID %1$c agora é %2$s. O usuário agora pode entrar e mudar a senha"
+msgid ""
+"The password to the user with ID %1$c is now %2$s. The user can now log in "
+"and change the password"
+msgstr ""
+"A senha para o usuário com ID %1$c agora é %2$s. O usuário agora pode entrar "
+"e mudar a senha"
 
 #: /functions.php:396
 msgid "Sorry, you can't use your superuser powers to remove them"
-msgstr "Desculpe, você não pode usar seus poderes de super-usuário para remover eles"
+msgstr ""
+"Desculpe, você não pode usar seus poderes de super-usuário para remover eles"
 
 #: /functions.php:410
 msgid "Sorry, self-destructive behaviour is not accepted"
@@ -303,11 +334,11 @@ msgstr "Não conectado"
 
 #: /help.php:16
 msgid "How much does it cost?"
-msgstr "Quando isto custo?"
+msgstr "Quanto custa?"
 
 #: /help.php:16
 msgid "The current price per reservation is "
-msgstr "O preço atual por reserva é"
+msgstr "O preço atual por reserva é "
 
 #: /help.php:17
 msgid "How do I make a reservation?"
@@ -326,8 +357,10 @@ msgid "Click on the reservation you wish to remove."
 msgstr "Clique na reserva que você deseja remover."
 
 #: /help.php:19
-msgid "If I have used without making a reservation first, how do I register it?"
-msgstr "Se eu tenho usado sem primeiro fazer uma reserva, como eu registro isso?"
+msgid ""
+"If I have used without making a reservation first, how do I register it?"
+msgstr ""
+"Se eu estou usando sem primeiro fazer uma reserva, como eu registro isso?"
 
 #: /help.php:19
 #, php-format
@@ -352,8 +385,14 @@ msgid "What reservation restrictions are there?"
 msgstr "Quais restrições de reserva existem?"
 
 #: /help.php:21
-msgid "You can't make or remove reservations back in time or remove other user's reservations. The webmaster may restrict how many weeks forward in time you can make reservations."
-msgstr "Você não pode fazer ou remover reservas em horário passado ou remover de outros usuários. O webmaster pode restringir quantas semanas a frente você pode fazer reservas."
+msgid ""
+"You can't make or remove reservations back in time or remove other user's "
+"reservations. The webmaster may restrict how many weeks forward in time you "
+"can make reservations."
+msgstr ""
+"Você não pode fazer ou remover reservas no passado ou remover de outros "
+"usuários. O webmaster pode restringir quantas semanas a frente você pode "
+"fazer reservas."
 
 #: /help.php:22
 msgid "Can I get reservation reminders?"
@@ -384,28 +423,50 @@ msgid "Are there any reservation restrictions for admins?"
 msgstr "Existem restrições de reserva para admins?"
 
 #: /help.php:41
-msgid "No, you can make and remove reservations back and forward in time as you wish, and you can delete other user's reservations. It will require a confirmation."
-msgstr "Não, você pode realizar e remover reservas no futuro ou passado como você desejar e você pode deletar reservas de outros usuários. Isto solicitará uma confirmação"
+msgid ""
+"No, you can make and remove reservations back and forward in time as you "
+"wish, and you can delete other user's reservations. It will require a "
+"confirmation."
+msgstr ""
+"Não, você pode realizar e remover reservas no futuro ou passado como você "
+"desejar e você pode deletar reservas de outros usuários. Isto solicitará uma "
+"confirmação"
 
 #: /help.php:42
 msgid "How do I manage users and reservations?"
 msgstr "Como eu gerencio usuários e reservas?"
 
 #: /help.php:42
-msgid "You can reset a user's passwords (if the user has forgot it), change a user's permissions (admin or not), delete a user's reservations and delete a user. Just pick a user and choose what to do. All the red buttons will require a confirmation."
-msgstr "Você pode redefinir senhas(se o usuário esquecer), alterar permissão do usuário(admin ou não), deletar reservas do usuário e excluir um usuário. Basta selecionar um usuário e escolher o que fazer. Todos os botões vermelhos solicitará confirmação."
+msgid ""
+"You can reset a user's passwords (if the user has forgot it), change a "
+"user's permissions (admin or not), delete a user's reservations and delete a "
+"user. Just pick a user and choose what to do. All the red buttons will "
+"require a confirmation."
+msgstr ""
+"Você pode redefinir senhas(se o usuário esquecer), alterar permissão do "
+"usuário(admin ou não), deletar reservas do usuário e excluir um usuário. "
+"Basta selecionar um usuário e escolher o que fazer. Todos os botões "
+"vermelhos solicitará confirmação."
 
 #: /help.php:43
 msgid "Can I delete all users and reservations?"
 msgstr "Posso deletar todos usuários e reservas?"
 
 #: /help.php:43
-msgid "Your user and reservations will not be deleted unless you choose to delete everything."
-msgstr "Seu usuário e reservas não será deletado a não ser que você escolha deletar tudo."
+msgid ""
+"Your user and reservations will not be deleted unless you choose to delete "
+"everything."
+msgstr ""
+"Seu usuário e reservas não será deletado a não ser que você escolha deletar "
+"tudo."
 
 #: /help.php:44
-msgid "How do I change the other options, like possible reservation times, secret code etc?"
-msgstr "Como eu altero outras opções, como possível horário de reserva, código secreto etc?"
+msgid ""
+"How do I change the other options, like possible reservation times, secret "
+"code etc?"
+msgstr ""
+"Como eu altero outras opções, como possíveis horários de reserva, código "
+"secreto etc?"
 
 #: /help.php:44
 msgid "The webmaster must do that in the configuration file (config.php)."
@@ -416,8 +477,11 @@ msgid "Will changing the price affect previous reservations?"
 msgstr "Alterar o preço irá afetar reservas anteriores?"
 
 #: /help.php:45
-msgid "No. A new price will only apply for reservations made after the price change."
-msgstr "Não. Um novo preço será aplicado somente para reservas feita a partir da mudança do novo valor."
+msgid ""
+"No. A new price will only apply for reservations made after the price change."
+msgstr ""
+"Não. O novo preço será aplicado somente para reservas feita a partir da "
+"mudança do novo valor."
 
 #: /js/main-js.php:91
 msgid "Invalid week number"
@@ -461,13 +525,20 @@ msgid "User created successfully! Logging in..."
 msgstr "Usuário criado com sucesso! Entrando..."
 
 #: /js/main-js.php:323
-msgid "You are reserving back in time. You can do that because you are an admin"
-msgstr "Você está reservando horário passado. Você pode fazer isso porque é um admin"
+msgid ""
+"You are reserving back in time. You can do that because you are an admin"
+msgstr ""
+"Você está reservando horário no passado. Você pode fazer isso porque é um "
+"admin"
 
 #: /js/main-js.php:327
 #, php-format
-msgid "You are reserving more than %d weeks forward in time. You can do that because you are an admin"
-msgstr "Você está reservando mais de %d semanas a frente. Você pode fazer isso porque é um admin"
+msgid ""
+"You are reserving more than %d weeks forward in time. You can do that "
+"because you are an admin"
+msgstr ""
+"Você está reservando mais de %d semanas a frente. Você pode fazer isso "
+"porque é um admin"
 
 #: /js/main-js.php:335 /js/main-js.php:354 /js/main-js.php:371
 #: /js/main-js.php:407
@@ -479,8 +550,12 @@ msgid "One click is enough"
 msgstr "Um clique é suficiente"
 
 #: /js/main-js.php:362
-msgid "This is not your reservation, but because you are an admin you can remove other users reservations. Are you sure you want to do this?"
-msgstr "Esta reserva não é sua, mas porque você é admin você pode remover reservas de outros usuários. Você tem certeza disto?"
+msgid ""
+"This is not your reservation, but because you are an admin you can remove "
+"other users reservations. Are you sure you want to do this?"
+msgstr ""
+"Esta reserva não é sua, mas como você é admin você pode remover reservas de "
+"outros usuários. Você tem certeza disto?"
 
 #: /js/main-js.php:389
 msgid "You can not remove other users reservations"
@@ -519,8 +594,12 @@ msgid "Changing permissions..."
 msgstr "Alterando permissões..."
 
 #: /js/main-js.php:517
-msgid "Permissions changed successfully. The user must re-login to get the new permissions"
-msgstr "Permissões alterada com sucesso. O usuário deve re-conectar para receber novas permissões"
+msgid ""
+"Permissions changed successfully. The user must re-login to get the new "
+"permissions"
+msgstr ""
+"Permissões alterada com sucesso. O usuário deve re-conectar para receber "
+"novas permissões"
 
 #: /js/main-js.php:536
 msgid "Are you sure?"
@@ -531,16 +610,27 @@ msgid "Deleting..."
 msgstr "Deletando..."
 
 #: /js/main-js.php:581
-msgid "Are you sure you want to delete ALL reservations? Database backup is a good idea!"
-msgstr "Você tem certeza que quer deletar TODAS reservas? Backup do banco de dados é uma boa idéia!"
+msgid ""
+"Are you sure you want to delete ALL reservations? Database backup is a good "
+"idea!"
+msgstr ""
+"Você tem certeza que quer deletar TODAS as reservas? Backup do banco de "
+"dados é uma boa idéia!"
 
 #: /js/main-js.php:585
-msgid "Are you sure you want to delete ALL users? Database backup is a good idea!"
-msgstr "Você tem certeza que quer deletar TODOS usuários? Backup do banco de dados é uma boa idéia!"
+msgid ""
+"Are you sure you want to delete ALL users? Database backup is a good idea!"
+msgstr ""
+"Você tem certeza que quer deletar TODOS usuários? Backup do banco de dados é "
+"uma boa idéia!"
 
 #: /js/main-js.php:589
-msgid "Are you sure you want to delete EVERYTHING (including you)? The first user created afterwards will become admin. Database backup is a good idea!"
-msgstr "Você tem certeza que quer deletar TUDO (incluindo você)? O primeiro usuário criado após isso será admin. Backup do banco de dados é uma boa idéia!"
+msgid ""
+"Are you sure you want to delete EVERYTHING (including you)? The first user "
+"created afterwards will become admin. Database backup is a good idea!"
+msgstr ""
+"Você tem certeza que quer deletar TUDO (incluindo você)? O primeiro usuário "
+"criado após isso será admin. Backup do banco de dados é uma boa idéia!"
 
 #: /js/main-js.php:625 /js/main-js.php:664 /js/main-js.php:690
 msgid "Saving..."
@@ -572,7 +662,7 @@ msgstr "Informação"
 
 #: /login.php:60
 msgid "With just a click you can make your reservation"
-msgstr "Com somente um cliquei você pode fazer sua reserva"
+msgstr "Com somente um clique você pode fazer sua reserva"
 
 #: /login.php:61
 msgid "Your usage is stored automatically"
@@ -584,16 +674,26 @@ msgstr "Sua senha é codificada e não pode ser lida"
 
 #: /login.php:65
 #, php-format
-msgid "Secret code is used to only allow certain people to create a new user. Contact the webmaster by email at %s to get the secret code."
-msgstr "Código secreto é uso para somente permitir pessoas autorizadas para criar um novo usuário. Contacte o webmaster por email em %s para receber o código secreto."
+msgid ""
+"Secret code is used to only allow certain people to create a new user. "
+"Contact the webmaster by email at %s to get the secret code."
+msgstr ""
+"Código secreto é usado para somente permitir pessoas autorizadas de criar um "
+"novo usuário. Contate o webmaster por email em %s para receber o código "
+"secreto."
 
 #: /login.php:83 /login.php:111
 msgid "Forgot password"
 msgstr "Senha esquecida"
 
 #: /login.php:85
-msgid "Contact one of the admins below by email and write that you've forgotten your password, and you will get a new one. The password can be changed after logging in."
-msgstr "Contacte um dos admins abaixo por email, diga que você esqueceu sua senha e você receberá uma nova senha. A senha pode ser alterada após conectar."
+msgid ""
+"Contact one of the admins below by email and write that you've forgotten "
+"your password, and you will get a new one. The password can be changed after "
+"logging in."
+msgstr ""
+"Contate um dos admins abaixo por email, diga que você esqueceu sua senha e "
+"você receberá uma nova senha. A senha pode ser alterada após conectar."
 
 #: /login.php:99 /login.php:106
 msgid "Log in"
@@ -616,12 +716,20 @@ msgid "Reservation reminder"
 msgstr "Lembrete de reserva"
 
 #: /reminders.php:30
-msgid "This is a reservation reminder for today.\\r\\n\\nYou have made a reservation at the following time(s)"
-msgstr "Isto é um lembrete de reserva para hoje.\\r\\n\\nVocê fez reserva no seguinte horário(s)"
+msgid ""
+"This is a reservation reminder for today.\\r\\n\\nYou have made a "
+"reservation at the following time(s)"
+msgstr ""
+"Isto é um lembrete de reserva para hoje.\\r\\n\\nVocê fez reserva no "
+"seguinte horário(s)"
 
 #: /reminders.php:30
-msgid "If you don't want to receive reservation reminders, you can turn it off in the control panel."
-msgstr "Se você não quiser receber lembretes de reserva, você pode desligar isto no painel de controle."
+msgid ""
+"If you don't want to receive reservation reminders, you can turn it off in "
+"the control panel."
+msgstr ""
+"Se você não quiser receber lembretes de reserva, você pode desligar isto no "
+"painel de controle."
 
 #: /reservation.php:41
 msgid "Today"
