@@ -1,5 +1,5 @@
 <?php
-
+require_once('config.php'); 
 // Configuration
 
 function get_configuration($data)
@@ -281,8 +281,11 @@ function read_reservation_details($week, $day, $time)
 		
 	}
 	else
-	{
-		return('<b>'.__('Reservation made').':</b> ' . $reservation['reservation_made_time'] . '<br><b>'.__('User\'s email').':</b> ' . $reservation['reservation_user_email']);
+	{	
+		$format = 'Y-m-d H:i:s';
+		$date = DateTime::createFromFormat($format, $reservation['reservation_made_time'], new DateTimeZone(TIMEZONE));
+		$formatter = new IntlDateFormatter(LANG, IntlDateFormatter::MEDIUM, IntlDateFormatter::MEDIUM,TIMEZONE, IntlDateFormatter::GREGORIAN);
+		return('<b>'.__('Reservation made').':</b> ' .$formatter->format($date) . '<br><b>'.__('User\'s email').':</b> ' . $reservation['reservation_user_email']);
 	}
 }
 
